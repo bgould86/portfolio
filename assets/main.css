@@ -1,0 +1,186 @@
+/*Variables*/
+
+:root {
+  --black: #000;
+  --white: white;
+  --spacing-unit: 1.5rem;
+  --font-unit-large: 1.5rem;
+  --font-unit-very-large: 5rem;
+  --spacing-unit-small: 0.75rem;
+}
+
+/* Element Selectors Here */
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+  font-size: var(--font-unit-large);
+  line-height: 1;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: var(--font-unit-very-large);
+  line-height: 1;
+}
+
+h2 {
+  font-size: var(--font-unit-large);
+  line-height: 2;
+}
+
+/*Classes*/
+.brd-1 {
+  border: 2px white dashed;
+}
+
+.brd-2 {
+  border: 2px white solid;
+}
+
+.brdr- {
+  border-radius: var(--spacing-unit-small);
+}
+
+.bxs-1-hv:hover {
+  box-shadow: hotpink inset 0px 0px 24px;
+}
+
+.d-f {
+  display: flex;
+}
+
+/* flex classes */
+
+.fx-1 {
+  flex: 1;
+}
+
+.fxd-c {
+  flex-direction: column;
+}
+
+.fxw-w {
+  flex-wrap: wrap;
+}
+
+.fz\+ {
+  font-size: var(--font-unit-large);
+}
+
+.ff-monospace {
+  font-family: monospace;
+}
+
+.g {
+  gap: 2rem;
+}
+
+.l-50 {
+  left: 50%;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.ml {
+  margin-left: 1.5rem;
+}
+
+.mt-1p5 {
+  margin-top: 1.5rem;
+}
+
+.mt-2p75 {
+  margin-top: 2.75rem;
+}
+
+.p {
+  padding: var(--spacing-unit);
+}
+
+.p- {
+  padding: var(--spacing-unit-small);
+}
+
+.pl {
+  padding-left: 1.5rem;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.pos-a {
+  position: absolute;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.t-n1p5 {
+  top: -1.5rem;
+}
+
+.trf-1 {
+  transform: translate(-50px, 0px);
+}
+
+.trn-1 {
+  transition: all 0.5s ease-in-out;
+}
+
+.bgc-black {
+  background-color: black;
+}
+
+.bgc-darkblue {
+  background-color: darkblue;
+}
+
+.bgg-1 {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.us-all-a:active {
+  user-select: all;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* media quearies */
+
+@media (min-width: 768px) {
+  .d-f\@lrg {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .miw-100\@sml {
+    min-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .miw-50\@lrg {
+    min-width: 45%;
+  }
+}
