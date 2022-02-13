@@ -1,12 +1,12 @@
-# 02 Advanced CSS: Portfolio
+# 08 Revised Portfolio
 
 ## Description
 
-Create a portfolio page from scratch. The page contains my name, a recent photo, about me, my work, and contact me sections. It is mobile responsive and meets accessibility standards.
+Revise your portfolio and update your LinkedIn and Github.
 
 ## Screenshot
 
-![My portfolio webage includes a navigation that scrolls the user to the corresponding section. The placeholder cards for my future work get bigger when the user hovers over them. All links glow in white when the user hovers over them.](./assets/images/screencapture.png)
+![My portfolio has been updated to include Bootstrap styling and links to completed projects and my resume.](./assets/images/screenshot.png)
 
 ## Links to Application
 
