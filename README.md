@@ -6,7 +6,7 @@ Revise your portfolio and update your LinkedIn and Github.
 
 ## Screenshot
 
-![My portfolio has been updated to include Bootstrap styling and links to completed projects and my resume.](./assets/images/screenshot.png)
+![My portfolio has been updated to include my latest project.](./assets/images/screenshot.png)
 
 ## Links to Application
 
